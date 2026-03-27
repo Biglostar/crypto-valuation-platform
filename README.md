@@ -1,5 +1,5 @@
 cat <<EOF > README.md
-# 🚀 Crypto Valuation Platform (CVP)
+# Crypto Valuation Platform (CVP)
 
 데이터 기반의 암호화폐 가치 평가 및 퀀트 분석 플랫폼입니다. 시가총액 상위 코인들의 데이터를 자동으로 수집하고, 수학적 모델을 통해 저평가된 자산을 발굴하는 것을 목표로 합니다.
 
@@ -48,7 +48,7 @@ crypto-valuation-platform/
 ## 🚀 Usage
 
 ### 시가총액 상위 50개 코인 데이터 수집
-스테이블코인을 제외한 변동성이 있는 유효 코인 50개의 일봉 데이터를 자동으로 가져옵니다.
+Coingeko에서 스테이블코인을 제외한 변동성이 있는 유효 코인 50개의 일봉 데이터를 자동으로 가져옵니다.
 \`\`\`bash
 python3 -m src.collector.fetch_top_history
 \`\`\`
